@@ -8,6 +8,7 @@ out/
 *.log
 
 # IntelliJ files
+*.iml
 .idea/
 
 # BlueJ files
