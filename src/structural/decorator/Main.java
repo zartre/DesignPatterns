@@ -7,5 +7,10 @@ public class Main {
         homeBrew = new Cinnamon(homeBrew);
         System.out.print(homeBrew.getDescription() + " costs ");
         System.out.println(homeBrew.getCost());
+
+        Beverage espresso = new Espresso();
+        espresso = new Whip(espresso);
+        System.out.print(espresso.getDescription() + " costs ");
+        System.out.println(espresso.getCost());
     }
 }
