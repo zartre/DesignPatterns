@@ -1,3 +1,5 @@
+package structural.composite;
+
 public class AudioClip extends MediaClip {
     private String name;
 

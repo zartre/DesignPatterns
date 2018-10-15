@@ -1,3 +1,5 @@
+package structural.composite;
+
 import java.util.ArrayList;
 
 public class AdvertSequence extends MediaClip {
