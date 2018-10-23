@@ -2,7 +2,7 @@ package behavioural.template;
 
 public class Tea extends CaffeineBeverage {
     void brew() {
-        System.out.println("Brewing tea.");
+        System.out.println("Steeping tea.");
     }
 
     void addCondiments() {

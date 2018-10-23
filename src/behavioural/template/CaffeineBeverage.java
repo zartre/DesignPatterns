@@ -2,6 +2,8 @@ package behavioural.template;
 
 public abstract class CaffeineBeverage {
     public final void prepare() {
+        // Don't forget to make it final!
+        // To avoid being overridden
         boil();
         brew();
         pourInCup();
