@@ -1,7 +1,7 @@
 package behavioural.template;
 
 public abstract class CaffeineBeverage {
-    public void prepare() {
+    public final void prepare() {
         boil();
         brew();
         pourInCup();
